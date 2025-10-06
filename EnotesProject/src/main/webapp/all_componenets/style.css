@@ -1,0 +1,21 @@
+
+.navbar {
+    background-color: white; /* Black theme */
+}
+
+
+.navbar .nav-link {
+    color: #ccc; /* Light gray default color */
+    transition: color 0.3s ease;
+}
+
+
+.navbar .nav-link:hover {
+    color: #fff; /* White on hover */
+}
+
+
+.navbar .nav-link.active {
+    color: #fff; /* White when clicked / active */
+    font-weight: bold;
+}
